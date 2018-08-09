@@ -1,0 +1,31 @@
+{
+    "name": "Steps",
+    "fields": [
+        {
+            "fieldName": "dateTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "heartRate",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "stepsEmployee",
+            "otherEntityName": "employee",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20180809074129",
+    "entityTableName": "steps",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "mySuffix"
+}

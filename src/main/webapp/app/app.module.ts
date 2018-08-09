@@ -16,6 +16,7 @@ import { Adaro6AppRoutingModule } from './app-routing.module';
 import { Adaro6HomeModule } from './home/home.module';
 import { Adaro6AccountModule } from './account/account.module';
 import { Adaro6EntityModule } from './entities/entity.module';
+import { Adaro6DashboardModule } from './dashboard/dashboard.module';
 // jhipster-needle-angular-add-module-import JHipster will add new module here
 import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent, ActiveMenuDirective, ErrorComponent } from './layouts';
 
@@ -29,6 +30,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         Adaro6HomeModule,
         Adaro6AccountModule,
         Adaro6EntityModule
+        Adaro6DashboardModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [JhiMainComponent, NavbarComponent, ErrorComponent, PageRibbonComponent, ActiveMenuDirective, FooterComponent],

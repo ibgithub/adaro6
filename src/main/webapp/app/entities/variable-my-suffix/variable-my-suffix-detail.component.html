@@ -1,0 +1,35 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="variable">
+            <h2><span jhiTranslate="adaro6App.variable.detail.title">Variable</span> {{variable.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="adaro6App.variable.name">Name</span></dt>
+                <dd>
+                    <span>{{variable.name}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.variable.value">Value</span></dt>
+                <dd>
+                    <span>{{variable.value}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.variable.desc">Desc</span></dt>
+                <dd>
+                    <span>{{variable.desc}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/variable-my-suffix', variable.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

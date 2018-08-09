@@ -1,0 +1,37 @@
+
+{
+    "adaro6App": {
+        "employee" : {
+            "home": {
+                "title": "Employees",
+                "createLabel": "Buat Employee baru",
+                "createOrEditLabel": "Buat atau edit Employee"
+            },
+            "created": "Employee dengan id {{ param }} telah dibuat",
+            "updated": "Employee dengan id {{ param }} telah diperbaharui",
+            "deleted": "Employee dengan id {{ param }} telah dihapus",
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Employee {{ id }}?"
+            },
+            "detail": {
+                "title": "Employee"
+            },
+            "code": "Code",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "phoneNumber": "Phone Number",
+            "email": "Email",
+            "birthDate": "Birth Date",
+            "age": "Age",
+            "sex": "Sex",
+            "height": "Height",
+            "weight": "Weight",
+            "heartRate": "Heart Rate",
+            "stepsDay": "Steps Day",
+            "idealHeartRate": "Ideal Heart Rate",
+            "idealStepsDay": "Ideal Steps Day",
+            "employeeHR": "Employee HR",
+            "employeeSteps": "Employee Steps"
+        }
+    }
+}

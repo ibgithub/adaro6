@@ -1,0 +1,37 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="heartRate">
+            <h2><span jhiTranslate="adaro6App.heartRate.detail.title">Heart Rate</span> {{heartRate.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="adaro6App.heartRate.dateTime">Date Time</span></dt>
+                <dd>
+                    <span>{{heartRate.dateTime}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.heartRate.heartRate">Heart Rate</span></dt>
+                <dd>
+                    <span>{{heartRate.heartRate}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.heartRate.hREmployee">H R Employee</span></dt>
+                <dd>
+                    <div *ngIf="heartRate.hREmployeeId">
+                        <a [routerLink]="['/employee-my-suffix', heartRate.hREmployeeId, 'view']">{{heartRate.hREmployeeId}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/heart-rate-my-suffix', heartRate.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

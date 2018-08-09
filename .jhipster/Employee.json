@@ -1,0 +1,85 @@
+{
+    "name": "Employee",
+    "fields": [
+        {
+            "fieldName": "code",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "firstName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phoneNumber",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "birthDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "age",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "sex",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "height",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "weight",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "heartRate",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "stepsDay",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "idealHeartRate",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "idealStepsDay",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "employeeHR",
+            "otherEntityName": "heartRate",
+            "otherEntityRelationshipName": "hREmployee"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "employeeSteps",
+            "otherEntityName": "steps",
+            "otherEntityRelationshipName": "stepsEmployee"
+        }
+    ],
+    "changelogDate": "20180809074126",
+    "entityTableName": "employee",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "mySuffix"
+}

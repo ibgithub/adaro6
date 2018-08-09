@@ -1,0 +1,37 @@
+
+{
+    "adaro6App": {
+        "employee" : {
+            "home": {
+                "title": "Employees",
+                "createLabel": "Create a new Employee",
+                "createOrEditLabel": "Create or edit a Employee"
+            },
+            "created": "A new Employee is created with identifier {{ param }}",
+            "updated": "A Employee is updated with identifier {{ param }}",
+            "deleted": "A Employee is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Employee {{ id }}?"
+            },
+            "detail": {
+                "title": "Employee"
+            },
+            "code": "Code",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "phoneNumber": "Phone Number",
+            "email": "Email",
+            "birthDate": "Birth Date",
+            "age": "Age",
+            "sex": "Sex",
+            "height": "Height",
+            "weight": "Weight",
+            "heartRate": "Heart Rate",
+            "stepsDay": "Steps Day",
+            "idealHeartRate": "Ideal Heart Rate",
+            "idealStepsDay": "Ideal Steps Day",
+            "employeeHR": "Employee HR",
+            "employeeSteps": "Employee Steps"
+        }
+    }
+}

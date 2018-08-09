@@ -4,9 +4,22 @@
         "browsehappy": "Anda menggunakan browser versi lama. Silakan <a href=\"http://browsehappy.com/?locale=en\">perbaharui browser anda</a> untuk meningkatkan kenyamanan anda.",
         "menu": {
             "home": "Home",
+            "dashboard": {
+                "main": "Dashboard",
+                "barchart": "BarChart",
+                "doughnutchart": "DoughnutChart",
+                "linechart": "LineChart",
+                "piechart": "PieChart",
+                "polarareachart": "PolarAreaChart",
+                "radarchart": "RadarChart"
+            },
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
                 "main": "Entities",
+                "employeeMySuffix": "Employee",
+                "variableMySuffix": "Variable",
+                "heartRateMySuffix": "Heart Rate",
+                "stepsMySuffix": "Steps",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

@@ -1,0 +1,31 @@
+{
+    "name": "HeartRate",
+    "fields": [
+        {
+            "fieldName": "dateTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "heartRate",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "hREmployee",
+            "otherEntityName": "employee",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20180809074128",
+    "entityTableName": "heart_rate",
+    "dto": "mapstruct",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "mySuffix"
+}

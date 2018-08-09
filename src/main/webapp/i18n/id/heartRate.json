@@ -1,0 +1,24 @@
+
+{
+    "adaro6App": {
+        "heartRate" : {
+            "home": {
+                "title": "Heart Rates",
+                "createLabel": "Buat Heart Rate baru",
+                "createOrEditLabel": "Buat atau edit Heart Rate"
+            },
+            "created": "Heart Rate dengan id {{ param }} telah dibuat",
+            "updated": "Heart Rate dengan id {{ param }} telah diperbaharui",
+            "deleted": "Heart Rate dengan id {{ param }} telah dihapus",
+            "delete": {
+                "question": "Apakah anda yakin ingin menghapus Heart Rate {{ id }}?"
+            },
+            "detail": {
+                "title": "Heart Rate"
+            },
+            "dateTime": "Date Time",
+            "heartRate": "Heart Rate",
+            "hREmployee": "H R Employee"
+        }
+    }
+}

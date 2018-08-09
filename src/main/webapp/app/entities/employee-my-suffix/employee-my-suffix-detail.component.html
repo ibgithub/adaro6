@@ -1,0 +1,79 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="employee">
+            <h2><span jhiTranslate="adaro6App.employee.detail.title">Employee</span> {{employee.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="adaro6App.employee.code">Code</span></dt>
+                <dd>
+                    <span>{{employee.code}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.firstName">First Name</span></dt>
+                <dd>
+                    <span>{{employee.firstName}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.lastName">Last Name</span></dt>
+                <dd>
+                    <span>{{employee.lastName}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.phoneNumber">Phone Number</span></dt>
+                <dd>
+                    <span>{{employee.phoneNumber}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.email">Email</span></dt>
+                <dd>
+                    <span>{{employee.email}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.birthDate">Birth Date</span></dt>
+                <dd>
+                    <span>{{employee.birthDate}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.age">Age</span></dt>
+                <dd>
+                    <span>{{employee.age}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.sex">Sex</span></dt>
+                <dd>
+                    <span>{{employee.sex}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.height">Height</span></dt>
+                <dd>
+                    <span>{{employee.height}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.weight">Weight</span></dt>
+                <dd>
+                    <span>{{employee.weight}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.heartRate">Heart Rate</span></dt>
+                <dd>
+                    <span>{{employee.heartRate}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.stepsDay">Steps Day</span></dt>
+                <dd>
+                    <span>{{employee.stepsDay}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.idealHeartRate">Ideal Heart Rate</span></dt>
+                <dd>
+                    <span>{{employee.idealHeartRate}}</span>
+                </dd>
+                <dt><span jhiTranslate="adaro6App.employee.idealStepsDay">Ideal Steps Day</span></dt>
+                <dd>
+                    <span>{{employee.idealStepsDay}}</span>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/employee-my-suffix', employee.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

@@ -38,6 +38,12 @@ public class CacheConfiguration {
             cm.createCache(com.ib.adaro.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.ib.adaro.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.ib.adaro.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.ib.adaro.domain.Employee.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ib.adaro.domain.Employee.class.getName() + ".employeeHRS", jcacheConfiguration);
+            cm.createCache(com.ib.adaro.domain.Employee.class.getName() + ".employeeSteps", jcacheConfiguration);
+            cm.createCache(com.ib.adaro.domain.Variable.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ib.adaro.domain.HeartRate.class.getName(), jcacheConfiguration);
+            cm.createCache(com.ib.adaro.domain.Steps.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

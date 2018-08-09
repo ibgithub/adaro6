@@ -1,0 +1,12 @@
+import { Moment } from 'moment';
+
+export interface IStepsMySuffix {
+    id?: number;
+    dateTime?: Moment;
+    heartRate?: number;
+    stepsEmployeeId?: number;
+}
+
+export class StepsMySuffix implements IStepsMySuffix {
+    constructor(public id?: number, public dateTime?: Moment, public heartRate?: number, public stepsEmployeeId?: number) {}
+}
