@@ -30,7 +30,7 @@ import { JhiMainComponent, NavbarComponent, FooterComponent, PageRibbonComponent
         Adaro6CoreModule,
         Adaro6HomeModule,
         Adaro6AccountModule,
-        Adaro6EntityModule
+        Adaro6EntityModule,
         Adaro6DashboardModule,
         Adaro6AppHiThereModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
