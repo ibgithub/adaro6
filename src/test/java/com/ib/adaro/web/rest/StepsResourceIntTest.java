@@ -50,8 +50,8 @@ public class StepsResourceIntTest {
     private static final ZonedDateTime DEFAULT_DATE_TIME = ZonedDateTime.ofInstant(Instant.ofEpochMilli(0L), ZoneOffset.UTC);
     private static final ZonedDateTime UPDATED_DATE_TIME = ZonedDateTime.now(ZoneId.systemDefault()).withNano(0);
 
-    private static final Long DEFAULT_HEART_RATE = 1L;
-    private static final Long UPDATED_HEART_RATE = 2L;
+    private static final Long DEFAULT_STEPS_COUNT = 1L;
+    private static final Long UPDATED_STEPS_COUNT = 2L;
 
     @Autowired
     private StepsRepository stepsRepository;
@@ -100,7 +100,7 @@ public class StepsResourceIntTest {
     public static Steps createEntity(EntityManager em) {
         Steps steps = new Steps()
             .dateTime(DEFAULT_DATE_TIME)
-            .heartRate(DEFAULT_HEART_RATE);
+            .stepsCount(DEFAULT_STEPS_COUNT);
         return steps;
     }
 
@@ -126,7 +126,7 @@ public class StepsResourceIntTest {
         assertThat(stepsList).hasSize(databaseSizeBeforeCreate + 1);
         Steps testSteps = stepsList.get(stepsList.size() - 1);
         assertThat(testSteps.getDateTime()).isEqualTo(DEFAULT_DATE_TIME);
-        assertThat(testSteps.getHeartRate()).isEqualTo(DEFAULT_HEART_RATE);
+        assertThat(testSteps.getStepsCount()).isEqualTo(DEFAULT_STEPS_COUNT);
     }
 
     @Test
@@ -161,7 +161,7 @@ public class StepsResourceIntTest {
             .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
             .andExpect(jsonPath("$.[*].id").value(hasItem(steps.getId().intValue())))
             .andExpect(jsonPath("$.[*].dateTime").value(hasItem(sameInstant(DEFAULT_DATE_TIME))))
-            .andExpect(jsonPath("$.[*].heartRate").value(hasItem(DEFAULT_HEART_RATE.intValue())));
+            .andExpect(jsonPath("$.[*].stepsCount").value(hasItem(DEFAULT_STEPS_COUNT.intValue())));
     }
     
 
@@ -177,7 +177,7 @@ public class StepsResourceIntTest {
             .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8_VALUE))
             .andExpect(jsonPath("$.id").value(steps.getId().intValue()))
             .andExpect(jsonPath("$.dateTime").value(sameInstant(DEFAULT_DATE_TIME)))
-            .andExpect(jsonPath("$.heartRate").value(DEFAULT_HEART_RATE.intValue()));
+            .andExpect(jsonPath("$.stepsCount").value(DEFAULT_STEPS_COUNT.intValue()));
     }
     @Test
     @Transactional
@@ -201,7 +201,7 @@ public class StepsResourceIntTest {
         em.detach(updatedSteps);
         updatedSteps
             .dateTime(UPDATED_DATE_TIME)
-            .heartRate(UPDATED_HEART_RATE);
+            .stepsCount(UPDATED_STEPS_COUNT);
         StepsDTO stepsDTO = stepsMapper.toDto(updatedSteps);
 
         restStepsMockMvc.perform(put("/api/steps")
@@ -214,7 +214,7 @@ public class StepsResourceIntTest {
         assertThat(stepsList).hasSize(databaseSizeBeforeUpdate);
         Steps testSteps = stepsList.get(stepsList.size() - 1);
         assertThat(testSteps.getDateTime()).isEqualTo(UPDATED_DATE_TIME);
-        assertThat(testSteps.getHeartRate()).isEqualTo(UPDATED_HEART_RATE);
+        assertThat(testSteps.getStepsCount()).isEqualTo(UPDATED_STEPS_COUNT);
     }
 
     @Test

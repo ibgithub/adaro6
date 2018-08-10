@@ -6,7 +6,7 @@
             "fieldType": "ZonedDateTime"
         },
         {
-            "fieldName": "heartRate",
+            "fieldName": "stepsCount",
             "fieldType": "Long"
         }
     ],

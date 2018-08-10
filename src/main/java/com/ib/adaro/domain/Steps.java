@@ -28,8 +28,8 @@ public class Steps implements Serializable {
     @Column(name = "date_time")
     private ZonedDateTime dateTime;
 
-    @Column(name = "heart_rate")
-    private Long heartRate;
+    @Column(name = "steps_count")
+    private Long stepsCount;
 
     @ManyToOne
     @JsonIgnoreProperties("employeeSteps")
@@ -57,17 +57,17 @@ public class Steps implements Serializable {
         this.dateTime = dateTime;
     }
 
-    public Long getHeartRate() {
-        return heartRate;
+    public Long getStepsCount() {
+        return stepsCount;
     }
 
-    public Steps heartRate(Long heartRate) {
-        this.heartRate = heartRate;
+    public Steps stepsCount(Long stepsCount) {
+        this.stepsCount = stepsCount;
         return this;
     }
 
-    public void setHeartRate(Long heartRate) {
-        this.heartRate = heartRate;
+    public void setStepsCount(Long stepsCount) {
+        this.stepsCount = stepsCount;
     }
 
     public Employee getStepsEmployee() {
@@ -109,7 +109,7 @@ public class Steps implements Serializable {
         return "Steps{" +
             "id=" + getId() +
             ", dateTime='" + getDateTime() + "'" +
-            ", heartRate=" + getHeartRate() +
+            ", stepsCount=" + getStepsCount() +
             "}";
     }
 }

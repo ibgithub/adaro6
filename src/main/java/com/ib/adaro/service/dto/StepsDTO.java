@@ -13,7 +13,7 @@ public class StepsDTO implements Serializable {
 
     private ZonedDateTime dateTime;
 
-    private Long heartRate;
+    private Long stepsCount;
 
     private Long stepsEmployeeId;
 
@@ -33,12 +33,12 @@ public class StepsDTO implements Serializable {
         this.dateTime = dateTime;
     }
 
-    public Long getHeartRate() {
-        return heartRate;
+    public Long getStepsCount() {
+        return stepsCount;
     }
 
-    public void setHeartRate(Long heartRate) {
-        this.heartRate = heartRate;
+    public void setStepsCount(Long stepsCount) {
+        this.stepsCount = stepsCount;
     }
 
     public Long getStepsEmployeeId() {
@@ -75,7 +75,7 @@ public class StepsDTO implements Serializable {
         return "StepsDTO{" +
             "id=" + getId() +
             ", dateTime='" + getDateTime() + "'" +
-            ", heartRate=" + getHeartRate() +
+            ", stepsCount=" + getStepsCount() +
             ", stepsEmployee=" + getStepsEmployeeId() +
             "}";
     }

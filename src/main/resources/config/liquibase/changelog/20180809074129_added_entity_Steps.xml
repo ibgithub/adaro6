@@ -25,7 +25,7 @@
                 <constraints nullable="true" />
             </column>
 
-            <column name="heart_rate" type="bigint">
+            <column name="steps_count" type="bigint">
                 <constraints nullable="true" />
             </column>
 

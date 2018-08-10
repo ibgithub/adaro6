@@ -16,7 +16,7 @@
             <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="transition.bind(this)">
             <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon [icon]="'sort'"></fa-icon></th>
             <th jhiSortBy="dateTime"><span jhiTranslate="adaro6App.steps.dateTime">Date Time</span> <fa-icon [icon]="'sort'"></fa-icon></th>
-            <th jhiSortBy="heartRate"><span jhiTranslate="adaro6App.steps.heartRate">Heart Rate</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="stepsCount"><span jhiTranslate="adaro6App.steps.stepsCount">Steps Count</span> <fa-icon [icon]="'sort'"></fa-icon></th>
             <th jhiSortBy="stepsEmployeeId"><span jhiTranslate="adaro6App.steps.stepsEmployee">Steps Employee</span> <fa-icon [icon]="'sort'"></fa-icon></th>
             <th></th>
             </tr>
@@ -25,7 +25,7 @@
             <tr *ngFor="let steps of steps ;trackBy: trackId">
                 <td><a [routerLink]="['/steps-my-suffix', steps.id, 'view' ]">{{steps.id}}</a></td>
                 <td>{{steps.dateTime | date:'medium'}}</td>
-                <td>{{steps.heartRate}}</td>
+                <td>{{steps.stepsCount}}</td>
                 <td>
                     <div *ngIf="steps.stepsEmployeeId">
                         <a [routerLink]="['../employee-my-suffix', steps.stepsEmployeeId , 'view' ]" >{{steps.stepsEmployeeId}}</a>

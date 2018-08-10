@@ -17,7 +17,7 @@
                 "title": "Steps"
             },
             "dateTime": "Date Time",
-            "heartRate": "Heart Rate",
+            "stepsCount": "Steps Count",
             "stepsEmployee": "Steps Employee"
         }
     }
