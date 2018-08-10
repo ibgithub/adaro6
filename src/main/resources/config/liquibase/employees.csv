@@ -1,0 +1,4 @@
+id;code;first_name;last_name;phone_number;email;birth_date;age;sex;height;weight;heart_rate;steps_day;ideal_heart_rate;ideal_steps_day
+1;EMP001;ADI;PUTRA;081318175855;imam.baihaqi1999@gmail.com;1988-05-13;30;M;175;74;100;1700;null;null
+2;EMP002;BUDI;DARMA;081318175855;imam1@gmail.com;1980-05-13;38;M;170;87;110;1800;null;null
+3;EMP003;CITRA;LESTARI;081318175855;imam2@gmail.com;1990-05-13;28;F;165;64;98;1300;null;null

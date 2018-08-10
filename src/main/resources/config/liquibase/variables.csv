@@ -1,0 +1,3 @@
+id;name;jhi_value;jhi_desc
+1;PERIOD_GET_HR;1;Period to get heart rate (in minutes)
+2;PERIOD_GET_STEPS;4;Period to get steps (in hours)
