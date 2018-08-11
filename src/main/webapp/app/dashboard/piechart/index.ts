@@ -1,2 +1,2 @@
-export * from './piechart.component';
-export * from './piechart.route';
+export * from 'app/dashboard/piechart/piechart.component';
+export * from 'app/dashboard/piechart/piechart.route';

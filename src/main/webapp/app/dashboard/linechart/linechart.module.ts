@@ -1,13 +1,13 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { Adaro6SharedModule } from '../../shared';
+import { Adaro6SharedModule } from 'app/shared';
 import { ChartModule } from 'primeng/primeng';
 
 import {
     LinechartComponent,
     linechartRoute
-} from './';
+} from 'app/dashboard/linechart';
 
 const DASHBOARD_STATES = [
     linechartRoute

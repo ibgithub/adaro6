@@ -4,7 +4,7 @@ import { HttpResponse, HttpErrorResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { IVariableMySuffix } from 'app/shared/model/variable-my-suffix.model';
-import { VariableMySuffixService } from './variable-my-suffix.service';
+import { VariableMySuffixService } from 'app/entities/variable-my-suffix/variable-my-suffix.service';
 
 @Component({
     selector: 'jhi-variable-my-suffix-update',

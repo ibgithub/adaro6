@@ -5,7 +5,7 @@ import { NgbActiveModal, NgbModal, NgbModalRef } from '@ng-bootstrap/ng-bootstra
 import { JhiEventManager } from 'ng-jhipster';
 
 import { IEmployeeMySuffix } from 'app/shared/model/employee-my-suffix.model';
-import { EmployeeMySuffixService } from './employee-my-suffix.service';
+import { EmployeeMySuffixService } from 'app/entities/employee-my-suffix/employee-my-suffix.service';
 
 @Component({
     selector: 'jhi-employee-my-suffix-delete-dialog',

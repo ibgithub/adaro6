@@ -13,6 +13,11 @@
                 "polarareachart": "PolarAreaChart",
                 "radarchart": "RadarChart"
             },
+            "monitor": {
+                "main": "Monitor",
+                "heartrate": "Detak Jantung",
+                "steps": "Total Langkah"
+            },
             "hi-there": "Hi There",
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {

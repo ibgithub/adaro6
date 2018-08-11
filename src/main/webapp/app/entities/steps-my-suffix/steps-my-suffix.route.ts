@@ -6,11 +6,11 @@ import { UserRouteAccessService } from 'app/core';
 import { of } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { StepsMySuffix } from 'app/shared/model/steps-my-suffix.model';
-import { StepsMySuffixService } from './steps-my-suffix.service';
-import { StepsMySuffixComponent } from './steps-my-suffix.component';
-import { StepsMySuffixDetailComponent } from './steps-my-suffix-detail.component';
-import { StepsMySuffixUpdateComponent } from './steps-my-suffix-update.component';
-import { StepsMySuffixDeletePopupComponent } from './steps-my-suffix-delete-dialog.component';
+import { StepsMySuffixService } from 'app/entities/steps-my-suffix/steps-my-suffix.service';
+import { StepsMySuffixComponent } from 'app/entities/steps-my-suffix/steps-my-suffix.component';
+import { StepsMySuffixDetailComponent } from 'app/entities/steps-my-suffix/steps-my-suffix-detail.component';
+import { StepsMySuffixUpdateComponent } from 'app/entities/steps-my-suffix/steps-my-suffix-update.component';
+import { StepsMySuffixDeletePopupComponent } from 'app/entities/steps-my-suffix/steps-my-suffix-delete-dialog.component';
 import { IStepsMySuffix } from 'app/shared/model/steps-my-suffix.model';
 
 @Injectable({ providedIn: 'root' })

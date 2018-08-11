@@ -10,7 +10,7 @@ import {
     VariableMySuffixDeleteDialogComponent,
     variableRoute,
     variablePopupRoute
-} from './';
+} from 'app/entities/variable-my-suffix';
 
 const ENTITY_STATES = [...variableRoute, ...variablePopupRoute];
 

@@ -6,11 +6,11 @@ import { UserRouteAccessService } from 'app/core';
 import { of } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { HeartRateMySuffix } from 'app/shared/model/heart-rate-my-suffix.model';
-import { HeartRateMySuffixService } from './heart-rate-my-suffix.service';
-import { HeartRateMySuffixComponent } from './heart-rate-my-suffix.component';
-import { HeartRateMySuffixDetailComponent } from './heart-rate-my-suffix-detail.component';
-import { HeartRateMySuffixUpdateComponent } from './heart-rate-my-suffix-update.component';
-import { HeartRateMySuffixDeletePopupComponent } from './heart-rate-my-suffix-delete-dialog.component';
+import { HeartRateMySuffixService } from 'app/entities/heart-rate-my-suffix/heart-rate-my-suffix.service';
+import { HeartRateMySuffixComponent } from 'app/entities/heart-rate-my-suffix/heart-rate-my-suffix.component';
+import { HeartRateMySuffixDetailComponent } from 'app/entities/heart-rate-my-suffix/heart-rate-my-suffix-detail.component';
+import { HeartRateMySuffixUpdateComponent } from 'app/entities/heart-rate-my-suffix/heart-rate-my-suffix-update.component';
+import { HeartRateMySuffixDeletePopupComponent } from 'app/entities/heart-rate-my-suffix/heart-rate-my-suffix-delete-dialog.component';
 import { IHeartRateMySuffix } from 'app/shared/model/heart-rate-my-suffix.model';
 
 @Injectable({ providedIn: 'root' })

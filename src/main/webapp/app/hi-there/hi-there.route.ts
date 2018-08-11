@@ -1,7 +1,7 @@
 import { Route } from '@angular/router';
 
 import { UserRouteAccessService } from 'app/core';
-import { HiThereComponent } from './';
+import { HiThereComponent } from 'app/hi-there';
 
 export const HI_THERE_ROUTE: Route = {
   path: 'hi-there',

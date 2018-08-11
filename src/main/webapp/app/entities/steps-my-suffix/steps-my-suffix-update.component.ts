@@ -7,7 +7,7 @@ import { DATE_TIME_FORMAT } from 'app/shared/constants/input.constants';
 import { JhiAlertService } from 'ng-jhipster';
 
 import { IStepsMySuffix } from 'app/shared/model/steps-my-suffix.model';
-import { StepsMySuffixService } from './steps-my-suffix.service';
+import { StepsMySuffixService } from 'app/entities/steps-my-suffix/steps-my-suffix.service';
 import { IEmployeeMySuffix } from 'app/shared/model/employee-my-suffix.model';
 import { EmployeeMySuffixService } from 'app/entities/employee-my-suffix';
 

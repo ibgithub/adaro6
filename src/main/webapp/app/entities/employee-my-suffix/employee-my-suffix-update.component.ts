@@ -4,7 +4,7 @@ import { HttpResponse, HttpErrorResponse } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { IEmployeeMySuffix } from 'app/shared/model/employee-my-suffix.model';
-import { EmployeeMySuffixService } from './employee-my-suffix.service';
+import { EmployeeMySuffixService } from 'app/entities/employee-my-suffix/employee-my-suffix.service';
 
 @Component({
     selector: 'jhi-employee-my-suffix-update',

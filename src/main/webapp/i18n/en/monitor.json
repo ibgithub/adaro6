@@ -1,0 +1,14 @@
+{
+    "monitor": {
+        "heartrate" : {
+            "home": {
+                "title": "Heart Rate"
+            }
+        },
+        "steps" : {
+            "home": {
+                "title": "Steps"
+            }
+        }
+    }
+}

@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
-import { UserRouteAccessService } from '../../core';
-import { DoughnutchartComponent } from './doughnutchart.component';
+import { UserRouteAccessService } from 'app/core';
+import { DoughnutchartComponent } from 'app/dashboard/doughnutchart/doughnutchart.component';
 
 export const doughnutchartRoute: Route = {
     path: 'doughnutchart',

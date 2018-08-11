@@ -12,7 +12,7 @@ import {
     PasswordResetFinishComponent,
     SettingsComponent,
     accountState
-} from './';
+} from 'app/account';
 
 @NgModule({
     imports: [Adaro6SharedModule, RouterModule.forChild(accountState)],

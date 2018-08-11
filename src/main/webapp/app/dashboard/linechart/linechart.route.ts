@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
-import { UserRouteAccessService } from '../../core';
-import { LinechartComponent } from './linechart.component';
+import { UserRouteAccessService } from 'app/core';
+import { LinechartComponent } from 'app/dashboard/linechart/linechart.component';
 
 export const linechartRoute: Route = {
     path: 'linechart',

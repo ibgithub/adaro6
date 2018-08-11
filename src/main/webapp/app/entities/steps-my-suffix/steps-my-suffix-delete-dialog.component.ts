@@ -5,7 +5,7 @@ import { NgbActiveModal, NgbModal, NgbModalRef } from '@ng-bootstrap/ng-bootstra
 import { JhiEventManager } from 'ng-jhipster';
 
 import { IStepsMySuffix } from 'app/shared/model/steps-my-suffix.model';
-import { StepsMySuffixService } from './steps-my-suffix.service';
+import { StepsMySuffixService } from 'app/entities/steps-my-suffix/steps-my-suffix.service';
 
 @Component({
     selector: 'jhi-steps-my-suffix-delete-dialog',

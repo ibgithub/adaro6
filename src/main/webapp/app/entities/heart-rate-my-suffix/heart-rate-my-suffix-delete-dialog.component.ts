@@ -5,7 +5,7 @@ import { NgbActiveModal, NgbModal, NgbModalRef } from '@ng-bootstrap/ng-bootstra
 import { JhiEventManager } from 'ng-jhipster';
 
 import { IHeartRateMySuffix } from 'app/shared/model/heart-rate-my-suffix.model';
-import { HeartRateMySuffixService } from './heart-rate-my-suffix.service';
+import { HeartRateMySuffixService } from 'app/entities/heart-rate-my-suffix/heart-rate-my-suffix.service';
 
 @Component({
     selector: 'jhi-heart-rate-my-suffix-delete-dialog',

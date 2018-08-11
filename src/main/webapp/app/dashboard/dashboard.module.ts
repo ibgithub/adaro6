@@ -1,10 +1,10 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { Adaro6BarchartModule } from './barchart/barchart.module';
-import { Adaro6DoughnutchartModule } from './doughnutchart/doughnutchart.module';
-import { Adaro6LinechartModule } from './linechart/linechart.module';
-import { Adaro6PiechartModule } from './piechart/piechart.module';
-import { Adaro6PolarareachartModule } from './polarareachart/polarareachart.module';
-import { Adaro6RadarchartModule } from './radarchart/radarchart.module';
+import { Adaro6BarchartModule } from 'app/dashboard/barchart/barchart.module';
+import { Adaro6DoughnutchartModule } from 'app/dashboard/doughnutchart/doughnutchart.module';
+import { Adaro6LinechartModule } from 'app/dashboard/linechart/linechart.module';
+import { Adaro6PiechartModule } from 'app/dashboard/piechart/piechart.module';
+import { Adaro6PolarareachartModule } from 'app/dashboard/polarareachart/polarareachart.module';
+import { Adaro6RadarchartModule } from 'app/dashboard/radarchart/radarchart.module';
 
 @NgModule({
     imports: [

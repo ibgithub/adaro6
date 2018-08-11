@@ -1,2 +1,2 @@
-export * from './linechart.component';
-export * from './linechart.route';
+export * from 'app/dashboard/linechart/linechart.component';
+export * from 'app/dashboard/linechart/linechart.route';

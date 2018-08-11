@@ -5,7 +5,7 @@ import { NgbActiveModal, NgbModal, NgbModalRef } from '@ng-bootstrap/ng-bootstra
 import { JhiEventManager } from 'ng-jhipster';
 
 import { IVariableMySuffix } from 'app/shared/model/variable-my-suffix.model';
-import { VariableMySuffixService } from './variable-my-suffix.service';
+import { VariableMySuffixService } from 'app/entities/variable-my-suffix/variable-my-suffix.service';
 
 @Component({
     selector: 'jhi-variable-my-suffix-delete-dialog',

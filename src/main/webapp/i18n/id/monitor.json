@@ -1,0 +1,14 @@
+{
+    "monitor": {
+        "heartrate" : {
+            "home": {
+                "title": "Detak Jantung"
+            }
+        },
+        "steps" : {
+            "home": {
+                "title": "Langkah Kaki"
+            }
+        }
+    }
+}

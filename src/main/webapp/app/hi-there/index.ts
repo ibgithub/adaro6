@@ -1,3 +1,3 @@
-export * from './hi-there.component';
-export * from './hi-there.route';
-export * from './hi-there.module';
+export * from 'app/hi-there/hi-there.component';
+export * from 'app/hi-there/hi-there.route';
+export * from 'app/hi-there/hi-there.module';

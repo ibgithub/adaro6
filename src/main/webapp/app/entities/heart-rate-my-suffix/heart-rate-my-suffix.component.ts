@@ -8,7 +8,7 @@ import { IHeartRateMySuffix } from 'app/shared/model/heart-rate-my-suffix.model'
 import { Principal } from 'app/core';
 
 import { ITEMS_PER_PAGE } from 'app/shared';
-import { HeartRateMySuffixService } from './heart-rate-my-suffix.service';
+import { HeartRateMySuffixService } from 'app/entities/heart-rate-my-suffix/heart-rate-my-suffix.service';
 
 @Component({
     selector: 'jhi-heart-rate-my-suffix',

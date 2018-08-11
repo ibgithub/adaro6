@@ -8,7 +8,7 @@ import { IStepsMySuffix } from 'app/shared/model/steps-my-suffix.model';
 import { Principal } from 'app/core';
 
 import { ITEMS_PER_PAGE } from 'app/shared';
-import { StepsMySuffixService } from './steps-my-suffix.service';
+import { StepsMySuffixService } from 'app/entities/steps-my-suffix/steps-my-suffix.service';
 
 @Component({
     selector: 'jhi-steps-my-suffix',

@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
-import { UserRouteAccessService } from '../../core';
-import { PiechartComponent } from './piechart.component';
+import { UserRouteAccessService } from 'app/core';
+import { PiechartComponent } from 'app/dashboard/piechart/piechart.component';
 
 export const piechartRoute: Route = {
     path: 'piechart',

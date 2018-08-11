@@ -5,11 +5,11 @@ import { UserRouteAccessService } from 'app/core';
 import { of } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { VariableMySuffix } from 'app/shared/model/variable-my-suffix.model';
-import { VariableMySuffixService } from './variable-my-suffix.service';
-import { VariableMySuffixComponent } from './variable-my-suffix.component';
-import { VariableMySuffixDetailComponent } from './variable-my-suffix-detail.component';
-import { VariableMySuffixUpdateComponent } from './variable-my-suffix-update.component';
-import { VariableMySuffixDeletePopupComponent } from './variable-my-suffix-delete-dialog.component';
+import { VariableMySuffixService } from 'app/entities/variable-my-suffix/variable-my-suffix.service';
+import { VariableMySuffixComponent } from 'app/entities/variable-my-suffix/variable-my-suffix.component';
+import { VariableMySuffixDetailComponent } from 'app/entities/variable-my-suffix/variable-my-suffix-detail.component';
+import { VariableMySuffixUpdateComponent } from 'app/entities/variable-my-suffix/variable-my-suffix-update.component';
+import { VariableMySuffixDeletePopupComponent } from 'app/entities/variable-my-suffix/variable-my-suffix-delete-dialog.component';
 import { IVariableMySuffix } from 'app/shared/model/variable-my-suffix.model';
 
 @Injectable({ providedIn: 'root' })

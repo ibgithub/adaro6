@@ -1,6 +1,6 @@
 import { Moment } from 'moment';
-import { IHeartRateMySuffix } from 'app/shared/model//heart-rate-my-suffix.model';
-import { IStepsMySuffix } from 'app/shared/model//steps-my-suffix.model';
+import { IHeartRateMySuffix } from 'app/shared/model/heart-rate-my-suffix.model';
+import { IStepsMySuffix } from 'app/shared/model/steps-my-suffix.model';
 
 export interface IEmployeeMySuffix {
     id?: number;

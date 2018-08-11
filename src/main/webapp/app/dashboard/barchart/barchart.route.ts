@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
-import { UserRouteAccessService } from '../../core';
-import { BarchartComponent } from './barchart.component';
+import { UserRouteAccessService } from 'app/core';
+import { BarchartComponent } from 'app/dashboard/barchart/barchart.component';
 
 export const barchartRoute: Route = {
     path: 'barchart',

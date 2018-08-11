@@ -10,7 +10,7 @@ import {
     HeartRateMySuffixDeleteDialogComponent,
     heartRateRoute,
     heartRatePopupRoute
-} from './';
+} from 'app/entities/heart-rate-my-suffix';
 
 const ENTITY_STATES = [...heartRateRoute, ...heartRatePopupRoute];
 

@@ -10,7 +10,7 @@ import {
     EmployeeMySuffixDeleteDialogComponent,
     employeeRoute,
     employeePopupRoute
-} from './';
+} from 'app/entities/employee-my-suffix';
 
 const ENTITY_STATES = [...employeeRoute, ...employeePopupRoute];
 

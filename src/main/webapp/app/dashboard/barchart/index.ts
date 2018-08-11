@@ -1,2 +1,2 @@
-export * from './barchart.component';
-export * from './barchart.route';
+export * from 'app/dashboard/barchart/barchart.component';
+export * from 'app/dashboard/barchart/barchart.route';

@@ -6,11 +6,11 @@ import { UserRouteAccessService } from 'app/core';
 import { of } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { EmployeeMySuffix } from 'app/shared/model/employee-my-suffix.model';
-import { EmployeeMySuffixService } from './employee-my-suffix.service';
-import { EmployeeMySuffixComponent } from './employee-my-suffix.component';
-import { EmployeeMySuffixDetailComponent } from './employee-my-suffix-detail.component';
-import { EmployeeMySuffixUpdateComponent } from './employee-my-suffix-update.component';
-import { EmployeeMySuffixDeletePopupComponent } from './employee-my-suffix-delete-dialog.component';
+import { EmployeeMySuffixService } from 'app/entities/employee-my-suffix/employee-my-suffix.service';
+import { EmployeeMySuffixComponent } from 'app/entities/employee-my-suffix/employee-my-suffix.component';
+import { EmployeeMySuffixDetailComponent } from 'app/entities/employee-my-suffix/employee-my-suffix-detail.component';
+import { EmployeeMySuffixUpdateComponent } from 'app/entities/employee-my-suffix/employee-my-suffix-update.component';
+import { EmployeeMySuffixDeletePopupComponent } from 'app/entities/employee-my-suffix/employee-my-suffix-delete-dialog.component';
 import { IEmployeeMySuffix } from 'app/shared/model/employee-my-suffix.model';
 
 @Injectable({ providedIn: 'root' })

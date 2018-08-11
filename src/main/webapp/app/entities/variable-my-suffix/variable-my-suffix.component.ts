@@ -5,7 +5,7 @@ import { JhiEventManager, JhiAlertService } from 'ng-jhipster';
 
 import { IVariableMySuffix } from 'app/shared/model/variable-my-suffix.model';
 import { Principal } from 'app/core';
-import { VariableMySuffixService } from './variable-my-suffix.service';
+import { VariableMySuffixService } from 'app/entities/variable-my-suffix/variable-my-suffix.service';
 
 @Component({
     selector: 'jhi-variable-my-suffix',

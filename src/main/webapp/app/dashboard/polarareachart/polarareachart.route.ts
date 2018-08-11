@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
-import { UserRouteAccessService } from '../../core';
-import { PolarareachartComponent } from './polarareachart.component';
+import { UserRouteAccessService } from 'app/core';
+import { PolarareachartComponent } from 'app/dashboard/polarareachart/polarareachart.component';
 
 export const polarareachartRoute: Route = {
     path: 'polarareachart',

@@ -10,7 +10,7 @@ import {
     StepsMySuffixDeleteDialogComponent,
     stepsRoute,
     stepsPopupRoute
-} from './';
+} from 'app/entities/steps-my-suffix';
 
 const ENTITY_STATES = [...stepsRoute, ...stepsPopupRoute];
 

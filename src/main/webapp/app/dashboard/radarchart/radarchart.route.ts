@@ -1,6 +1,6 @@
 import { Route } from '@angular/router';
-import { UserRouteAccessService } from '../../core';
-import { RadarchartComponent } from './radarchart.component';
+import { UserRouteAccessService } from 'app/core';
+import { RadarchartComponent } from 'app/dashboard/radarchart/radarchart.component';
 
 export const radarchartRoute: Route = {
     path: 'radarchart',

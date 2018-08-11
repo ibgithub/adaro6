@@ -8,7 +8,7 @@ import { IEmployeeMySuffix } from 'app/shared/model/employee-my-suffix.model';
 import { Principal } from 'app/core';
 
 import { ITEMS_PER_PAGE } from 'app/shared';
-import { EmployeeMySuffixService } from './employee-my-suffix.service';
+import { EmployeeMySuffixService } from 'app/entities/employee-my-suffix/employee-my-suffix.service';
 
 @Component({
     selector: 'jhi-employee-my-suffix',

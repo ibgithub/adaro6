@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 
-import { Adaro6SharedLibsModule, FindLanguageFromKeyPipe, JhiAlertComponent, JhiAlertErrorComponent } from './';
+import { Adaro6SharedLibsModule, FindLanguageFromKeyPipe, JhiAlertComponent, JhiAlertErrorComponent } from 'app/shared';
 
 @NgModule({
     imports: [Adaro6SharedLibsModule],

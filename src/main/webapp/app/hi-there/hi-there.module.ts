@@ -1,9 +1,9 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
-import { Adaro6SharedModule } from '../shared';
+import { Adaro6SharedModule } from 'app/shared';
 
-import { HI_THERE_ROUTE, HiThereComponent } from './';
+import { HI_THERE_ROUTE, HiThereComponent } from 'app/hi-there';
 
 @NgModule({
     imports: [
